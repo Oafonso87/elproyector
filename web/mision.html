@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Cabecera-->    
+    <head>
+
+        <title>El Proyector</title>
+        <meta charset="utf-8">
+        <meta name="description" content="El Proyector">
+        <meta name="keywords" content="proyector, cine, series, noticias">        
+        <!--Aplicación de estilos CSS mediante enlace de fichero--> 
+        <link rel="stylesheet" href="../css/estilos.css">
+
+    </head>
+
+    <!--Cuerpo-->
+    <body>
+        <!--Parte superior de la web con enlace en el título, que lleva a la página principal-->
+        <header>
+            <a href="../index.html">El Proyector</a>
+        </header>
+        <!--Espacio principal de la web, entre el encabezado y el pie de página, que abarca todo el ancho en subdivisiones-->
+        <main class="principal">
+            <!--Uso de nav para crear un contenedor con los enlaces de navegación dentro de la web-->
+            <nav class="menu">
+                <a class="menu-enlace" href="../index.html">Índice</a>                
+                <a class="menu-enlace" href="noticias.html">Noticias</a>
+                <a class="menu-enlace" href="criticas.html">Críticas</a>
+                <a class="menu-enlace" href="ediciones-fisicas.html">Ediciones</a>
+                <a class="menu-enlace" href="contacto.html">Contacto</a>
+            </nav>
+            <!--Uso del section para describir una edición, con un texto, una lista, imágenes y la inserción de un vídeo externo-->            
+            <section class="ediciones">
+                <h1>Misión Imposible Sentencia Mortal 1</h1>
+                <!--Inserción de una ventana con un vídeo de Yotube, con unas medidas determinadas-->
+                <iframe class="video-float" width="500" height="300" src="https://www.youtube.com/embed/XoDmKCZBeeI?si=-UYUy1TMSbJxN2ZJ" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p> Ethan Hunt y su equipo del FMI se enfrentan a su misión más peligrosa: impedir que una nueva arma caiga 
+                    en manos equivocadas. Con nuevos enemigos acechándolo, inicia una carrera mortal global. 
+                    Ethan, enfrentado a un enemigo misterioso, se ve forzado a sacrificar todo por la misión.
+                </p>
+                <ul>
+                    <li>Fecha de Salida: 31 de Octubre 2023</li>
+                    <li>Precio: 31,99 €</li>
+                    <li>Director: Christopher McQuarrie</li>
+                    <li>Reparto: Tom Cruise, Rebecca Fergusson, Simon Pegg, Esai Morales, Hayley Atwell, ...</li>
+                    <li>Año: 2023</li>
+                    <li>País: EEUU</li>
+                    <li>Calificación por Edades: No recomendada para menores de 12 años</li>
+                </ul>
+                <div>
+                    <img src="../media/mision1.jpg" alt="FastX">
+                    <img src="../media/mision2.jpg" alt="FastX">
+                    <img src="../media/mision3.jpg" alt="FastX">
+                </div>                                
+            </section>
+            <!--Uso de aside para crear un contenedor con enlaces webs similares de interés-->           
+            <aside class="estructura-iconos">
+                <p>Enlaces de Interés</p>
+                <a href="https://www.imdb.com/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/imdb.jpg" alt="Imdb" ></div>
+                </a>
+                <a href="https://www.filmaffinity.com/es/main.html" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/filmaffinity.png" alt="Filmaffinity" ></div>
+                </a>
+                <a href="https://www.fotogramas.es/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/fotogramas.png" alt="Fotogramas" ></div>
+                </a>
+                <a href="https://www.hollywoodreporter.com/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/thr.png" alt="TheHollywoodReporter" ></div>
+                </a>
+                <a href="https://www.justwatch.com/es" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/justwatch.png" alt="JustWatch" ></div>
+                </a>
+            </aside>
+        </main>
+        <!--Uso de footer para especificar la autoría de la web-->
+        <footer>
+            <p>Autoría y Licencias: Página web realizada por Omar Afonso con fines educativos.
+            Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>            
+        </footer>                
+    </body>
+</html>

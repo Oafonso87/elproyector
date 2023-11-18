@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Cabecera-->    
+    <head>
+
+        <title>El Proyector</title>
+        <meta charset="utf-8">
+        <meta name="description" content="El Proyector">
+        <meta name="keywords" content="proyector, cine, series, noticias">        
+        <!--Aplicación de estilos CSS mediante enlace de fichero--> 
+        <link rel="stylesheet" href="../css/estilos.css">
+
+    </head>
+
+    <!--Cuerpo-->
+    <body>
+        <!--Parte superior de la web con enlace en el título, que lleva a la página principal-->
+        <header>
+            <a href="index.html">El Proyector</a>
+        </header>
+        <!--Espacio principal de la web, entre el encabezado y el pie de página, que abarca todo el ancho en subdivisiones-->
+        <main class="principal">
+            <!--Uso de nav para crear un contenedor con los enlaces de navegación dentro de la web-->
+            <nav class="menu"> 
+                <a class="menu-enlace" href="index.html">Inicio</a>            
+                <a class="menu-enlace" href="noticias.html">Noticias</a>
+                <a class="menu-enlace" href="criticas.html">Críticas</a>
+                <a class="menu-enlace" href="contacto.html">Contacto</a>  
+            </nav>
+            <!--Cuatro bloques con imágenes y título que sirven de enlaces a sus respectivas páginas-->            
+            <section class="contenedor-ediciones">
+                <a href="fast.html" target="_blank">                
+                    <div class="cubierta">                    
+                        <img src="../media/fast1.jpg" alt="Fast&Furious">
+                        <h2 class="texto-superpuesto">Fast & Furious X</h2>                    
+                    </div>
+                </a>
+                <a href="mision.html" target="_blank">
+                    <div class="cubierta">                    
+                        <img src="../media/mision1.jpg" alt="Misión Imposible"> 
+                        <h2 class="texto-superpuesto">Misión Imposible SM 1</h2>                   
+                    </div>
+                </a>
+                <a href="thor.html" target="_blank">
+                    <div class="cubierta">                    
+                        <img src="../media/thor1.jpg" alt="Thor Love & Thunder">
+                        <h2 class="texto-superpuesto">Thor Love & Thunder</h2>                    
+                    </div>
+                </a>
+                <a href="babylon.html" target="_blank">
+                    <div class="cubierta">                    
+                        <img src="../media/babylon1.jpg" alt="Babylon">
+                        <h2 class="texto-superpuesto">Babylon</h2>                    
+                    </div>
+                </a>        
+            </section>
+            <!--Uso de aside para crear un contenedor con enlaces webs similares de interés-->           
+            <aside class="estructura-iconos">
+                <p>Enlaces de Interés</p>
+                <a href="https://www.imdb.com/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/imdb.jpg" alt="Imdb" ></div>
+                </a>
+                <a href="https://www.filmaffinity.com/es/main.html" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/filmaffinity.png" alt="Filmaffinity" ></div>
+                </a>
+                <a href="https://www.fotogramas.es/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/fotogramas.png" alt="Fotogramas" ></div>
+                </a>
+                <a href="https://www.hollywoodreporter.com/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/thr.png" alt="TheHollywoodReporter" ></div>
+                </a>
+                <a href="https://www.justwatch.com/es" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/justwatch.png" alt="JustWatch" ></div>
+                </a>
+            </aside>
+        </main>
+        <!--Uso de footer para especificar la autoría de la web-->
+        <footer>
+            <p>Autoría y Licencias: Página web realizada por Omar Afonso con fines educativos.
+            Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>            
+        </footer>                
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Cabecera-->    
+    <head>
+
+        <title>El Proyector</title>
+        <meta charset="utf-8">
+        <meta name="description" content="El Proyector">
+        <meta name="keywords" content="proyector, cine, series, noticias">        
+        <!--Aplicación de estilos CSS mediante enlace de fichero--> 
+        <link rel="stylesheet" href="../css/estilos.css">
+
+    </head>
+
+    <!--Cuerpo-->
+    <body>
+        <!--Parte superior de la web con enlace en el título, que lleva a la página principal-->
+        <header>
+            <a href="../index.html">El Proyector</a>
+        </header>
+        <!--Espacio principal de la web, entre el encabezado y el pie de página, que abarca todo el ancho en subdivisiones-->
+        <main class="principal">
+            <!--Uso de nav para crear un contenedor con los enlaces de navegación dentro de la web-->
+            <nav class="menu">
+                <a class="menu-enlace" href="../index.html">Índice</a>                
+                <a class="menu-enlace" href="noticias.html">Noticias</a>
+                <a class="menu-enlace" href="criticas.html">Críticas</a>
+                <a class="menu-enlace" href="ediciones-fisicas.html">Ediciones</a>
+                <a class="menu-enlace" href="contacto.html">Contacto</a>
+            </nav>
+            <!--Uso del section para describir una edición, con un texto, una lista, imágenes y la inserción de un vídeo externo-->            
+            <section class="ediciones">
+                <h1>Thor Love & Thunder</h1>
+                <!--Inserción de una ventana con un vídeo de Yotube, con unas medidas determinadas-->
+                <iframe class="video-float" width="500" height="300" src="https://www.youtube.com/embed/9jrffoywRUU?si=aMT-7hofcUWV2z6-" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p> Thor busca la paz interior en un retiro, pero su tranquilidad se ve amenazada por Gorr, 
+                    un asesino galáctico que busca la extinción de los dioses. Thor, con la ayuda de Valkiria, 
+                    Korg y su ex novia Jane Foster (ahora la Poderosa Thor), se embarca en una aventura cósmica 
+                    para detener la venganza de Gorr y salvar a los dioses antes de que sea tarde.
+                </p>
+                <ul>
+                    <li>Fecha de Salida: 6 de Octubre 2022</li>
+                    <li>Precio: 32,99 €</li>
+                    <li>Director: Taika Waititi</li>
+                    <li>Reparto: Christian Bale, Natalie Portman, Matt Damon, Chris Pratt, Chris Hemsworth, Russell Crowe, Tessa Thompson, ...</li>
+                    <li>Año: 2022</li>
+                    <li>País: EEUU</li>
+                    <li>Calificación por Edades: No recomendada para menores de 12 años</li>
+                </ul>
+                <div>
+                    <img src="../media/thor1.jpg" alt="FastX">
+                    <img src="../media/thor2.jpg" alt="FastX">
+                    <img src="../media/thor3.jpg" alt="FastX">
+                </div>                                
+            </section>
+            <!--Uso de aside para crear un contenedor con enlaces webs similares de interés-->           
+            <aside class="estructura-iconos">
+                <p>Enlaces de Interés</p>
+                <a href="https://www.imdb.com/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/imdb.jpg" alt="Imdb" ></div>
+                </a>
+                <a href="https://www.filmaffinity.com/es/main.html" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/filmaffinity.png" alt="Filmaffinity" ></div>
+                </a>
+                <a href="https://www.fotogramas.es/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/fotogramas.png" alt="Fotogramas" ></div>
+                </a>
+                <a href="https://www.hollywoodreporter.com/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/thr.png" alt="TheHollywoodReporter" ></div>
+                </a>
+                <a href="https://www.justwatch.com/es" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/justwatch.png" alt="JustWatch" ></div>
+                </a>
+            </aside>
+        </main>
+        <!--Uso de footer para especificar la autoría de la web-->
+        <footer>
+            <p>Autoría y Licencias: Página web realizada por Omar Afonso con fines educativos.
+            Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>            
+        </footer>                
+    </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Cabecera-->    
+    <head>
+
+        <title>El Proyector</title>
+        <meta charset="utf-8">
+        <meta name="description" content="El Proyector">
+        <meta name="keywords" content="proyector, cine, series, noticias">        
+        <!--Aplicación de estilos CSS mediante enlace de fichero--> 
+        <link rel="stylesheet" href="../css/estilos.css">
+
+    </head>
+
+    <!--Cuerpo-->
+    <body>
+        <!--Parte superior de la web con enlace en el título, que lleva a la página principal-->
+        <header>
+            <a href="../index.html">El Proyector</a>
+        </header>
+        <!--Espacio principal de la web, entre el encabezado y el pie de página, que abarca todo el ancho en subdivisiones-->
+        <main class="principal">
+            <!--Uso de nav para crear un contenedor con los enlaces de navegación dentro de la web-->
+            <nav class="menu"> 
+                <a class="menu-enlace" href="../index.html">Inicio</a>               
+                <a class="menu-enlace" href="noticias.html">Noticias</a>
+                <a class="menu-enlace" href="criticas.html">Críticas</a>
+                <a class="menu-enlace" href="ediciones-fisicas.html">Ediciones</a>                
+            </nav>
+            <!--Formulario de contacto que envía un mail, con diversas opciones y un área de texto-->            
+            <section class="formulario">                
+                <article>
+                    <form action="mailto:oafonso@birt.eus" method="post">
+                        <fieldset>
+                            <legend style="text-align: center;"><h2>Formulario de Contacto</h2></legend>
+                                <label for="formnom">Nombre:</label><br>
+                                <input class="form-cuadros" type="text" id="formnom" name="nombre"><br>
+                                <label for="formapel">Apellido:</label><br>
+                                <input class="form-cuadros"  type="text" id="formapel" name="apellido"><br>
+                                <label for="formail">E-Mail</label><br>
+                                <input class="form-cuadros" type="text" id="formail" name="mail"><br>              
+                            <label for="mod2">Motivo de Contacto</label><br>
+                            <select class="form-cuadros-opciones" name="opciones">
+                                <option value="Preguntas">Preguntas</option>
+                                <option value="Sugerenciass">Sugerencias</option>
+                                <option value="Otros">Otros</option>
+                            </select>
+                            <textarea class="form-cuadros" name="mensaje" rows="10" cols="30">Escriba aquí su comentario</textarea>                        
+                            <input type="submit" value="Enviar">
+                        </fieldset>
+                    </form>
+                </article>    
+            </section>
+            <!--Uso de aside para crear un contenedor con enlaces webs similares de interés-->           
+            <aside class="estructura-iconos">
+                <p>Enlaces de Interés</p>
+                <a href="https://www.imdb.com/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/imdb.jpg" alt="Imdb" ></div>
+                </a>
+                <a href="https://www.filmaffinity.com/es/main.html" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/filmaffinity.png" alt="Filmaffinity" ></div>
+                </a>
+                <a href="https://www.fotogramas.es/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/fotogramas.png" alt="Fotogramas" ></div>
+                </a>
+                <a href="https://www.hollywoodreporter.com/" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/thr.png" alt="TheHollywoodReporter" ></div>
+                </a>
+                <a href="https://www.justwatch.com/es" target="_blank">
+                    <div class="contenedor-icono"><img class="icono" src="../media/justwatch.png" alt="JustWatch" ></div>
+                </a>
+            </aside>
+        </main>
+        <!--Uso de footer para especificar la autoría de la web-->
+        <footer>
+            <p>Autoría y Licencias: Página web realizada por Omar Afonso con fines educativos.
+            Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>            
+        </footer>                
+    </body>
+</html>
